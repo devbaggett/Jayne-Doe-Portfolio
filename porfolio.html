@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
 	<meta charset="utf-8">
 	<title>Portfolio</title>
@@ -8,90 +7,82 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div id="wrapper"> <!-- needs padding on top and bottom -->
+	<div id="wrapper"> 
 		<div id="header"> 
 			<h1>Jayne Doe</h1> <!-- change font and align -->
 			<h2>Masters of shadows and the Internet!</h2> <!-- need to reposition, possibly by inline-block -->
-			<div id="subwrapper"> <!-- change color and use gradient that lightens toward center -->
-				<div id="box_top">
-					<div id="profile_pic">
-						<!-- need border and pic linked -->
-					</div>
-					<div id="about">
-						<div id="about_header">
-							<!-- need gradient and text -->
-						</div>
-						<div id="about_body">
-							<!-- needs content and link at end -->
-						</div>
+		</div>
+		<div id="subwrapper"> <!-- use gradient that lightens toward center -->
+			<div id="mid_top">
+				<img src="portfolio_images/photo_of_me.jpg" alt="porfolio pic" id="profile_pic">
+				<div id="about">
+					<div id="about_header"><h2>About...</h2></div>
+					<div id="about_text"><p>Hello! I'm an extremely driven and creative Full Stack Developer who is currently open for career opportunities as a front-end or back-end web developer in the Greater Seattle Area.</p><br><p>I'm a recent graduate of Coding Dojo, a coding school located in Bellevue, WA that teaches 3 full stacks in 3 months. I'm capable of learning new technologies very quickly, and am always looking for opportunies to further expand my skills and grow as a develper.</p><br><a href="ContinueReading">Continue reading...</a></div>
+				</div>
+			<div id="low_mid">
+				<div class="boxes_content1">
+					<div class="box_header"><h2>La Mode</h2></div>
+					<img src="portfolio_images/lamode.png" alt="lamode pic" class="box_pic">
+					<div class="box_body"><p>La Mode is an Ecommerce website for designed to market various clothing products. Users are able to view the available garments, select their desired quantity, and compile a shopping cart for making a final purchase.</p></div>
+					<div class="box_subheader"><h3>Technologies:</h3></div>
+					<div class="box_logos">
+						<img src="portfolio_images/php.png" alt="png img" class="logos1">
+						<img src="portfolio_images/codeigniter.png" alt="codeigniter img" class="logos1">
+						<img src="portfolio_images/jquery.png" alt="jquery img" class="logos1">
+						<img src="portfolio_images/ajax.png" alt="ajax img" class="logos1">
+						<img src="portfolio_images/mysql.png" alt="mysql img" class="logos1">
+						<img src="portfolio_images/html.png" alt="html img" class="logos2">
+						<img src="portfolio_images/css.png" alt="css img" class="logos2">
+						<img src="portfolio_images/bootstrap.png" alt="bootstrap img" class="logos2">
+						<div class="button"><a href="lamode">La Mode</a></div>
 					</div>
 				</div>
-				<div id="box_mid">
-					<div id="la_mode">
-						<div id="la_mode_header">
-							<!-- header here -->
-						</div>
-						<div id="la_mode_pic">
-							<!-- pic here -->
-						</div>
-						<div id="la_mode_body">
-							<!-- text here -->
-						</div>
-						<div id="la_mode_subheader">
-							<!-- gradient and text here -->
-						</div>
-						<div id="la_mode_logos">
-							<!-- logos here -->
-							<!-- button here -->
-						</div>
+				<div class="boxes_content2">
+					<div class="box_header"><h2>Family Contacts</h2></div>
+					<img src="portfolio_images/familycontacts.png" alt="family contacts pic" class="box_pic">
+					<div class="box_body"><p>Family Contacts is a free application for managing, sharing, and visualizing your family relationships for both extended and immediate family. As an essential feature of the project, your log-in information determines who you can see and reveals how people are related to you.</p></div>
+					<div class="box_subheader"><h3>Technologies:</h3></div>
+					<div class="box_logos">
+						<img src="portfolio_images/javascript.png" alt="javascript img" class="logos1">
+						<img src="portfolio_images/mongodb.png" alt="mongodb img" class="logos1">
+						<img src="portfolio_images/expressjs.png" alt="expressjs img" class="logos1">
+						<img src="portfolio_images/angular.png" alt="angular img" class="logos1">
+						<img src="portfolio_images/nodejs.png" alt="nodejs img" class="logos1">
+						<img src="portfolio_images/html.png" alt="html img" class="logos2">
+						<img src="portfolio_images/css.png" alt="css img" class="logos2">
+						<img src="portfolio_images/socket.png" alt="socket img" class="logos2">
+						<div class="button"><a href="familycontacts">Family Contacts</a></div>
 					</div>
-					<div id="Family Contacts">
-						<div id="family_header">
-							<!-- header here -->
-						</div>
-						<div id="family_pic">
-							<!-- pic here -->
-						</div>
-						<div id="family_body">
-							<!-- text here -->
-						</div>
-						<div id="family_subheader">
-							<!-- gradient and text here -->
-						</div>
-						<div id="family_logos">
-							<!-- logos here -->
-							<!-- button here -->
-						</div>						
-					</div>
-					<div id="511">
-						<div id="511_header">
-							<!-- header here -->
-						</div>
-						<div id="511_mode_pic">
-							<!-- pic here -->
-						</div>
-						<div id="511_mode_body">
-							<!-- text here -->
-						</div>
-						<div id="511_mode_subheader">
-							<!-- gradient and text here -->
-						</div>
-						<div id="511_mode_logos">
-							<!-- logos here -->
-							<!-- button here -->
-						</div>
+				</div>
+				<div class="boxes_content3">
+					<div class="box_header"><h2>fiveEleven</h2></div>
+					<img src="portfolio_images/fiveEleven.png" alt="511 pic" class="box_pic">
+					<div class="box_body"><p>Five Eleven is a data visualization project built on the Python software stack. The application transforms the developer job-hunt into a more visual, user friendly experience. Based on location, technology popularity, and other vast data sets, users may easily visualize the varying sizes and concentrations of the junior developer job market across the nation.</p></div>
+					<div class="box_subheader"><h3>Technologies:</h3></div>
+					<div class="box_logos">
+						<img src="portfolio_images/python.png" alt="python img" class="logos1">
+						<img src="portfolio_images/django.png" alt="django img" class="logos1">
+						<img src="portfolio_images/d3.png" alt="d3 img" class="logos1">
+						<img src="portfolio_images/sqlite.png" alt="sqlite img" class="logos1">
+						<img src="portfolio_images/nodejs.png" alt="nodejs img" class="logos1">
+						<img src="portfolio_images/html.png" alt="html img" class="logos2">
+						<img src="portfolio_images/css.png" alt="css img" class="logos2">
+						<img src="portfolio_images/javascript.png" alt="javascript img" class="logos2">
+						<img src="portfolio_images/materialize.png" alt="materialize img" class="logos2">
+						<div class="button"><a href="511">fiveEleven</a></div>
 					</div>
 				</div>
 			</div>
-		<div id="footer">
-			<div id="contact_info">
-				<!-- contact info here -->
-			</div>
-			<div id="social_media">
-				<!-- inline, pictures as bullets with style type none here, aligned center-->
-			</div>
-		</div>
-		</div>
+		</div>	
+	</div>
+	<div id="footer">
+		<div id="contact_info"><p>jdoe@gmails.com | 206-555-1212</p></div>
+		<ul id="social_media">
+			<li><img src="portfolio_images/github.png" alt="github img" class="social"><a href="#">Home</a></li>
+			<li><img src="portfolio_images/linkedin.png" alt="linkedin img" class="social"><a href="#">Dashboard</a></li>
+			<li><img src="portfolio_images/twitter.png" alt="twitter img" class="social"><a href="#">About</a></li>
+			<li><img src="portfolio_images/codepen.png" alt="codepen img" class="social"><a href="#">Contact Us</a></li>
+		</ul>
 	</div>
 </body>
 </html>
